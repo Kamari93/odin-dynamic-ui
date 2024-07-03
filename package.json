@@ -1,5 +1,5 @@
 {
-  "name": "odin-135-todo-ii",
+  "name": "odin-dynamic-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kamari93/odin-135-todo-II.git"
+    "url": "git+https://github.com/Kamari93/odin-dynamic-ui.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kamari93/odin-135-todo-II/issues"
+    "url": "https://github.com/Kamari93/odin-dynamic-ui/issues"
   },
-  "homepage": "https://github.com/Kamari93/odin-135-todo-II#readme",
+  "homepage": "https://github.com/Kamari93/odin-dynamic-ui#readme",
   "devDependencies": {
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
