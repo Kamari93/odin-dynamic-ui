@@ -93,8 +93,11 @@ html {
   flex-shrink: 0;
 }
 
+/* Set a fixed size for images and ensure they cover the container */
 .carousel-slide img {
   width: 100%;
+  height: 400px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensure images cover the container without distortion */
 }
 
 .carousel-btn {
