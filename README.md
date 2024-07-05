@@ -1,5 +1,7 @@
 # Dynamic UI
 
+[Live Preview Here](https://kamari93.github.io/odin-dynamic-ui/)
+
 # Dynamic UI with Drop-down and Image Carousel
 
 This project demonstrates how to create a dynamic user interface that includes a drop-down menu for selecting the background color and an image carousel. The functionalities are modular and reusable.
