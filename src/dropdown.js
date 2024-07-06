@@ -37,10 +37,12 @@ export function initDropdown() {
             // Change the color of the GitHub icon and body based on the background color
             if (color === 'var(--indigo)') {
                 document.body.style.color = 'var(--primary-light)';
-                document.getElementsByClassName('fa-github')[0].style.color = 'var(--primary-light)';
+                // document.getElementsByClassName('fa-github')[0].style.color = 'var(--primary-light)';
+                document.querySelector('.fa-github').style.color = 'var(--primary-light)';
             } else {
                 document.body.style.color = '#333';
-                document.getElementsByClassName('fa-github')[0].style.color = 'var(--primary-dark)';
+                // document.getElementsByClassName('fa-github')[0].style.color = 'var(--primary-dark)';
+                document.querySelector('.fa-github').style.color = 'var(--primary-dark)';
             };
 
             // Close the dropdown menu by removing the 'visible' class
