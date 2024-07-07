@@ -17,7 +17,7 @@ export function initDropdown() {
         const color = item.getAttribute('data-color');
         item.style.setProperty('--hover-color', color);
 
-        // Change the color of the GitHub icon and body based on the background color
+        // Change the indigo btn text color on hover
         if (color === 'var(--indigo)') {
             // change text color on hover 
             item.addEventListener('mouseover', () => {
