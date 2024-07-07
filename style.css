@@ -105,16 +105,27 @@ body {
   transition: transform 0.5s ease-in-out;
 }
 
+/* .carousel-slide {
+  width: 100%;
+  flex-shrink: 0;
+} */
+
 .carousel-slide {
   width: 100%;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Set a fixed size for images and ensure they cover the container */
 .carousel-slide img {
   width: 100%;
   height: 400px; /* Set a fixed height for all images */
-  object-fit: cover; /* Ensure images cover the container without distortion */
+  object-fit: contain; /* Ensure images cover the container without distortion */ /* Ensure images fit within the container and are fully visible */
+  object-position: left; /* Ensure images are positioned correctly */
+  max-height: 400px; /* Set a max height for images */
+  max-width: 100%;
 }
 
 .carousel-btn {
